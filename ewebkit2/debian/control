@@ -1,0 +1,21 @@
+Source: ewebkit2
+Section: unknown
+Priority: extra
+Maintainer: Ryuan Choi <ryuan.choi@gmail.com>
+Build-Depends: debhelper (>=5),
+               libicu-dev,
+               gperf,
+               libsoup2.4-dev,
+               libsqlite3-dev
+Standards-Version: 3.7.2
+
+Package: libewebkit2
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Browser Engine based on WebKit2/Efl port (Shared Library)
+
+Package: libewebkit2-dev
+Section: devel
+Architecture: any
+Depends: libewebkit2 (= ${Source-Version})

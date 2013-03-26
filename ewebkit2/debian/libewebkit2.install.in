@@ -1,0 +1,3 @@
+@PREFIX@/lib/lib*
+@PREFIX@/bin/*
+@PREFIX@/share/*
