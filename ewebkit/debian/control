@@ -19,3 +19,4 @@ Package: libewebkit-dev
 Section: devel
 Architecture: any
 Depends: libewebkit (= ${Source-Version})
+Description: Development files for ewebkit (WebKit/Efl) library
